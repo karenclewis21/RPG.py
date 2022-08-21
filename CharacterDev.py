@@ -36,7 +36,6 @@ enemy_one = {
 
 }
 
-
 enemy_two = {
     "name" : "Naval Colonel",
     "level" : 3,
@@ -54,3 +53,20 @@ enemy_two = {
     }
 }
 
+
+enemy_three = {
+    "name" : "Oracle",
+    "level" : 4,
+    "health": 100,
+    "equipment" : {'Car'},
+    "attacks" : (("laser eyes", 100), ('venom spit',60), ('hair whips', 50)),
+    "coins" : {
+        "gold": 2,
+        "platinum": 3,
+        "diamond": 0,
+    "phrases": {
+        "challenges": ['You thought you could get me!!', 'Ha take that!', 'You better get ready!'],
+        "plea": ['I didnt mean to!', ' owwee wow no!!', 'No no no that hurts!!']
+    }
+    }
+ }
