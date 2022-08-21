@@ -22,8 +22,8 @@ enemy_one = {
     "name" : "BarbZ",
     "level" : 2,
     "health": 100,
-    "equipment" : {'Cape'},
-    "attacks" : (("Roman summons", 100), ('spin kick'),60 ('anaconda attack', 50)),
+    "equipment" : {'microphone'},
+    "attacks" : (("Roman summons", 100), ('spin kick',60), ('anaconda attack', 50)),
     "coins" : {
         "gold": 35,
         "platinum": 12,
@@ -35,19 +35,22 @@ enemy_one = {
     }
 
 }
+
 
 enemy_two = {
     "name" : "Naval Colonel",
     "level" : 3,
     "health": 100,
-    "equipment" : {'microphone'},
-    "attacks" : (("", 100), (''),60 ('', 50)),
-    "coins" : {
-        "gold": 35,
-        "platinum": 12,
+    "equipment":{'Umbrella'},
+    "attacks":(("throwing conch shells", 100), ('tripple kick attack', 60), ('Vocal attacks', 50)),
+    "coins":{
+        "gold": 32,
+        "platinum": 3,
         "diamond": 1,
     "phrases": {
-        "challenges": ['Rah, Rah like a dungeon dragon!!', 'Never sleep on me!', 'You better watch out for me!'],
-        "plea": ['No not that!', ' oof, youre killing me', 'Anything but the Beehive!!'],
+        "challenges": ['Navy attack!!', 'Youll never top me!', 'Now Im gonna blow you out of the water!',],
+        "plea": ['I cant take another one of those!', ' That one felt personal!', 'You sank my battleship!!'],
+    }
     }
 }
+
