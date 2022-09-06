@@ -1,5 +1,4 @@
-print ("Welcome to the Industry Wars")
-print("Prepare for the survival of the Fittest!!")
+
 
 my_hero = {
     "name" : "Giselle_Fire_Song",
@@ -17,13 +16,12 @@ my_hero = {
         "pleas": ['You wont break my soul..just my leg', 'Pretty hurts, and so did that', 'ohh..that made me lose my breath!']
     }    
 }
-
 enemy_one = {
     "name" : "BarbZ",
     "level" : 2,
     "health": 100,
     "equipment" : {'microphone'},
-    "attacks" : (("Roman summons", 100), ('spin kick',60), ('anaconda attack', 50)),
+    "attacks" : (("Roman summons", 75), ('spin kick',60), ('anaconda attack', 50)),
     "coins" : {
         "gold": 35,
         "platinum": 12,
@@ -41,7 +39,7 @@ enemy_two = {
     "level" : 3,
     "health": 100,
     "equipment":{'Umbrella'},
-    "attacks":(("throwing conch shells", 100), ('tripple kick attack', 60), ('Vocal attacks', 50)),
+    "attacks":(("throwing conch shells", 75), ('tripple kick attack', 60), ('Vocal attacks', 50)),
     "coins":{
         "gold": 32,
         "platinum": 3,
@@ -59,7 +57,7 @@ enemy_three = {
     "level" : 4,
     "health": 100,
     "equipment" : {'Car'},
-    "attacks" : (("laser eyes", 100), ('venom spit',60), ('hair whips', 50)),
+    "attacks" : (("laser eyes", 75), ('venom spit',60), ('hair whips', 50)),
     "coins" : {
         "gold": 2,
         "platinum": 3,
